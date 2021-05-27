@@ -1,0 +1,4 @@
+Author - Brant Pastore
+
+AutoViewer - A collection of scripts to automate tasks using 'Remote Utilities - Viewer' program
+Written in python, using pywinauto.
