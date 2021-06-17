@@ -16,7 +16,7 @@ from sys import path
 path.append('./scripts/')
 import GenOTP
 
-def SelectDepartment(parm):
+def OnlineAlert():
     app = Application(backend="uia").connect(path=r'C:\Program Files (x86)\Remote Utilities - Viewer/rutview.exe')
     app.windows()
 
@@ -29,4 +29,4 @@ def SelectDepartment(parm):
 
 
 if __name__ == "__main__":
-    SelectDepartment(26)
+    SelectDepartment()

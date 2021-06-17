@@ -14,11 +14,10 @@ def GetWindow():
 
     dlg = app["Remote Utilities - Viewer"]
     dlg.set_focus()
-    dlg.type_keys('^a')
     dlg.type_keys('{BACKSPACE}')
     # TODO:
         # Move the secret to Azure Vault.
-    dlg.type_keys("PASSWORD_HERE", set_foreground=False)
+    dlg.type_keys("test", set_foreground=False)
     dlg.type_keys('{ENTER}') # Unlock the viewer
 
 if __name__ == "__main__":

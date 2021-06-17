@@ -7,7 +7,9 @@ def LockViewer():
 
 	app.windows()
 	dlg = app['Remote Utilities - Viewer'] # Select the window by title
-	dlg.type_keys('%l') # The shortcut Alt lists sub-shortcuts (l locks the viewer)
+    
+    # The Alt key lists sub-shortcuts 
+	dlg.type_keys('%l') # ALT + l locks the viewer
 
 
 if __name__ == "__main__":

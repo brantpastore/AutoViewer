@@ -13,7 +13,7 @@ def GetWindow():
 	
 	dlg = app['Remote Utilities - Viewer']
 	dlg.Edit.type_keys('^a^c{BACKSPACE}') # Clear the password field
-	dlg.type_keys("PASSWORD_HERE") # Enter the password
+	dlg.type_keys("test") # Enter the password
 	dlg.Edit.type_keys('{ENTER}') # Submit password
 
 
